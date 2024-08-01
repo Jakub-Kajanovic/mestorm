@@ -20,7 +20,7 @@
                         <a class="text-1md font-bold text-black cursor-pointer" href="{{ route('blog.show', $latestBlog->slug) }}">@lang('messages.read-more')</a>
                     </div>
                 </div>
-                <div class="max-w-[600px]">
+                <div class="blog-img">
                     <img class="h-full w-full" src="{{ asset($latestBlog->image) }}" alt="">
                 </div>
             </div>
