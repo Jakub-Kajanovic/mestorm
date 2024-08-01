@@ -1,5 +1,5 @@
 <div class="relative">
-    <div id="dropdownButton" onclick="toggleDropdown()" class="cursor-pointer items-center text-md rounded-md flex flex-row justify-between">
+    <div id="dropdownButton" onclick="toggleDropdown()" class="cursor-pointer items-center lg:text-md md:text-md text-sm rounded-md flex flex-row justify-between">
         @lang('messages.jazyk')<i class='bx bx-chevron-down text-sm'></i>
     </div>
     <div id="dropdown" class="hidden flex flex-col absolute gap-3 w-44 bg-white rounded-md shadow-md px-2 py-2 lg:right-0 right-1">
