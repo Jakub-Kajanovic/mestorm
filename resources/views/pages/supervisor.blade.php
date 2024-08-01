@@ -17,7 +17,7 @@
                 <h2
                     class="font-bold lg:text-xl md:text-xl text-md lg:w-[80%] md:w-[80%] w-[100%] lg:text-left md:text-left text-center">
                     @lang('messages.ms-supervisor-title')</h2>
-                <p class="italic text-1md mt-10 font-light lg:text-left md:text-left text-center">@lang('messages.ms-supervisor-text')</p>
+                <p class="italic lg:text-1md md:text-1md text-m-md mt-10 font-light lg:text-left md:text-left text-center">@lang('messages.ms-supervisor-text')</p>
             </div>
             <div class="hero-content-arrow">
                 <x-arrow href="#why-supervisor" />

@@ -75,7 +75,8 @@ return [
 'ms-supervisor-health-text' => 'Der Hersteller der MS-MD Absauger, Metales GmbH, hat alle seine Kompressor- und Serverräume seit mehreren Jahren mit MS-MD Absaugern ausgestattet. Messungen haben deren hervorragende Effizienz unter den anspruchsvollen Bedingungen kontinuierlicher Produktion gezeigt.',
 /* ms-waste */
 'ms-waste-title' => 'Intelligente und einfache Abfallentsorgung',
-'ms-waste-text' => 'Intelligente und einfache Abfallentsorgung.',
+'ms-waste-text' => 'Perfekte Sicht für den Bediener auf das CNC-Werkzeug und Werkstück während der Bearbeitung.',
+'postup' => 'Verfahren',
 'ms-waste-text1' => 'MS-Waste ist ein von Metales unter der Marke Mestorm Solution entwickeltes Gerät, das entwickelt wurde, um Probleme bei der Sammlung und dem Transport von Abfällen zu lösen, die während der Produktion entstehen.',
 'ms-waste-why-waste' => 'Warum MS-WASTE?',
 'ms-waste-why-waste-text1' => 'MS-WASTE enthält Schutzvorrichtungen, um Schäden sowohl an unserem Produkt als auch an Ihren Geräten zu verhindern.',

@@ -13,9 +13,9 @@
             <video src="{{ asset('video/video1.mp4') }}" type="video/mp4" loop autoplay muted></video>
             <div class="overlay"></div>
             <div class="hero-content flex-col">
-                <h1 class="font-bold lg:text-3xl md:text-3xl text-3md">MS - DUST</h1>
+                <h1 class="font-bold lg:text-3xl md:text-3xl text-3md pt-20">MS - DUST</h1>
                 <h2 class="font-bold lg:text-xl md:text-xl text-md lg:w-[80%] md:w-[80%] w-[100%] lg:text-left md:text-left text-center">@lang('messages.ms-dust-title')</h2>
-                <p class="italic text-1md mt-10 font-light lg:text-left md:text-left text-center leading-6">@lang('messages.ms-dust-title-text')</p>
+                <p class="italic lg:text-1md md:text-1md text-m-md mt-10 font-light lg:text-left md:text-left text-center leading-6">@lang('messages.ms-dust-title-text')</p>
             </div>
             <div class="hero-content-arrow">
                 <x-arrow href="#ms-dust-why-dust" />
@@ -141,7 +141,7 @@
         <div class="bg-[#6DCFF6] rounded-tl-3xl p-20 container ">
             <div class="grid grid-cols-2">
                 <div class="flex flex-col gap-2">
-                    <p class="text-sm font-bold text-white">Postup</p>
+                    <p class="text-sm font-bold text-white">@lang('messages.postup')</p>
                     <div class="flex flex-row gap-4">
                         <button class="content-button text-xl font-bold text-white hover:bg-white rounded-xl px-3 py-1 hover:text-[#6DCFF6] active" data-content="content1">1</button>
                         <button class="content-button text-xl font-bold text-white hover:bg-white rounded-xl px-3 py-1 hover:text-[#6DCFF6]" data-content="content2">2</button>
@@ -173,7 +173,7 @@
         <div class="bg-[#6DCFF6] rounded-tl-3xl lg:p-20 md:p-20 p-8 container">
             <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1">
                 <div class="flex flex-col gap-2">
-                    <p class="text-md font-bold text-white text-center">Postup</p>
+                    <p class="text-md font-bold text-white text-center">@lang('messages.postup')</p>
                     <div class="flex flex-row gap-4 justify-center">
                         <button class="content-button text-sm font-bold text-white hover:bg-white rounded-xl px-3 py-1 hover:text-[#6DCFF6] active" data-content="content5">1</button>
                         <button class="content-button text-sm font-bold text-white hover:bg-white rounded-xl px-3 py-1 hover:text-[#6DCFF6]" data-content="content6">2</button>

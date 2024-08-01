@@ -75,7 +75,8 @@ return [
 'ms-supervisor-health-text' => 'The manufacturer of MS-MD extractors, Metales Ltd., has equipped all its compressor rooms and server rooms with MS-MD extractors for several years. Measurements have demonstrated their excellent efficiency under the demanding conditions of continuous production.',
 /* ms-waste */
 'ms-waste-title' => 'Intelligent and Simple Waste Disposal',
-'ms-waste-text' => 'Intelligent and simple waste disposal.',
+'ms-waste-text' => 'Perfect view for the operator on the CNC tool and workpiece during machining.',
+'postup' => 'Procedure',
 'ms-waste-text1' => 'MS-Waste is a device developed by Metales under the Mestorm Solution brand, designed to address problems with the collection and transportation of waste generated during production.',
 'ms-waste-why-waste' => 'Why MS-WASTE?',
 'ms-waste-why-waste-text1' => 'MS-WASTE includes protective elements to prevent damage to both our product and your equipment.',

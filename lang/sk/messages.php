@@ -78,6 +78,7 @@ return [
     'ms-supervisor-health-text' => 'Výrobca odsávačov MS-MD, Metales s. r. o. má všetky svoje kompresorovne a serverovne vybavené odsávačmi MS-MD už niekoľko rokov. Merania preukázali ich výbornú efektivitu v náročných podmienkach nepretržitej výroby.',
     /* ms-waste */
     'ms-waste-title' => 'Inteligentná a jednoduchá likvidácia odpadu.',
+    'ms-waste-text' => 'Dokonalý výhľad pre operátora na CNC nástroj a obrobok počas obrábania.',
     'ms-waste-text1' => 'MS-Waste je zariadenie, vyvinuté spoločnosťou Metales pod značkou Mestorm Solution, ktoré slúži nariešenie problémov so zberom a prepravu odpadu vzniknutého pri výrobe.',
     'ms-waste-why-waste' => 'Prečo práve MS-WASTE?',
     'ms-waste-why-waste-text1' => 'MS-WASTE obsahuje zároveň aj ochranné prvky proti poškodeniu nášho produktu ale aj vaších zariadení.',
@@ -150,6 +151,7 @@ return [
     /* arrow */
     'more' => 'Viac o produkte',
     /* readm more */
+    'postup' => 'Postup',
     'read-more' => 'Prečítať viac',
     /*blog */
     'headline-blog' => 'Tu nájdete užitočné informácie, rady<br class="lg:hidden md:hidden"> a novinky zo sveta bezpečnostných systémov.',

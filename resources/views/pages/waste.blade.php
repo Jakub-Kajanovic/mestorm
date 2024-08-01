@@ -17,6 +17,8 @@
                 <h2
                     class="font-bold lg:text-xl md:text-xl text-md lg:w-[80%] md:w-[80%] w-[100%] lg:text-left md:text-left text-center">
                     @lang('messages.ms-waste-title')</h2>
+                    <p class="italic lg:text-1md md:text-1md text-m-md mt-10 font-light lg:text-left md:text-left text-center">@lang('messages.ms-waste-text')</p>
+
             </div>
             <div class="hero-content-arrow">
                 <x-arrow href="#why-waste" />
