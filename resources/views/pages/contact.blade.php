@@ -10,7 +10,7 @@
             </div>
         </nav>
         <div>
-            <div class="hero-content-contact flex-col lg:p-12 pt-20 mt-20">
+            <div class="hero-content-contact flex-col lg:p-12 pt-20 lg:mt-0 md:mt-0 mt-40">
                 <h1 data-aos="fade-up" class="font-bold lg:text-3xl md:text-3xl text-3md lg:text-left md:text-left text-center">@lang('messages.kontakt-title')</h1>
                 <h2 data-aos="fade-up"
                     class="font-bold lg:text-xl md:text-xl text-md lg:w-[80%] md:w-[80%] w-[100%] lg:text-left md:text-left text-center">
