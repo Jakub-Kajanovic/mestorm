@@ -155,6 +155,7 @@ return [
     'read-more' => 'Prečítať viac',
     /*blog */
     'headline-blog' => 'Tu nájdete užitočné informácie, rady<br class="lg:hidden md:hidden"> a novinky zo sveta bezpečnostných systémov.',
+    'back-to-blog' => 'Všetky články',
     /* transaltion */
     'not-in-your-language' => 'Preklad nie je k dispozícii',
     'article-not-available' => 'Tento článok nie je k dispozícii v zvolenom jazyku.',

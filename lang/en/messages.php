@@ -152,6 +152,7 @@ return [
 'read-more' => 'Read More',
 /*blog */
 'headline-blog' => 'Here you will find useful information, advice, <br class="lg:hidden md:hidden"> and news from the world of security systems.',
+'back-to-blog' => 'All articles',
 /* translation */
 'not-in-your-language' => 'Translation not available',
 'article-not-available' => 'This article is not available in the selected language.',

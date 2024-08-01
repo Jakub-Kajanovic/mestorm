@@ -3,13 +3,13 @@
     <section class="mx-auto container p-8">
         <div>
             <a class="text-md font-bold" href="{{ route('blog') }}">
-                <i class='bx bx-left-arrow-alt'></i> Všetky články
+                <i class='bx bx-left-arrow-alt'></i> @lang('messages.back-to-blog')
             </a>
         </div>
-        <div class="max-w-4xl mx-auto py-10">
-            <img src="{{ asset($blog->image) }}" alt="">
+        <div class="max-w-7xl mx-auto py-10">
+            <img class="" src="{{ asset($blog->image) }}" alt="">
         </div>
-        <div class="text-sm font-light">
+        <div class="text-sm font-light pb-4">
             {{ $blog->created_at->format('d.m.Y') }}
         </div>
         <article class="flex flex-col gap-10">
