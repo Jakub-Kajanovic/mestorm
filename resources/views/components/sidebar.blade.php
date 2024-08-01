@@ -1,9 +1,11 @@
 <div class="sidebar">
     <div class="top">
+        <a href="{{route('blog')}}">
         <div class="logo">
             <i class="bx bxl-codepen "></i>
-            <span class=""><a href="/">Mestorm</a></span>
+            <span class="">Mestorm</span>
         </div>
+        </a>
         <i class="bx bx-menu" id="btn"></i>
     </div>
     <div class="user">

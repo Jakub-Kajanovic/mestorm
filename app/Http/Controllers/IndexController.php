@@ -34,17 +34,47 @@ class IndexController extends Controller
         return view('pages.contact');
     }
     public function blog()
-    {
-        // Získanie najnovšieho príspevku
-        $latestBlog = Blog::latest()->first();
+{
+    // Získanie najnovšieho príspevku
+    $latestBlog = Blog::latest()->first();
 
-        // Získanie ďalších príspevkov, ktoré sú staršie než najnovší príspevok
-        $blogs = Blog::where('id', '!=', $latestBlog->id)
-                    ->latest()
-                    ->paginate(9);
+    // Ošetrenie prípadnej neprítomnosti príspevkov
+    if ($latestBlog) {
+        // Načítanie prekladu pre najnovší príspevok
+        $latestTranslation = $latestBlog->getTranslation(app()->getLocale());
+
+        if (!$latestTranslation) {
+            $latestTranslation = new \stdClass();
+            $latestTranslation->title = __('messages.not-in-your-language');
+            $latestTranslation->content = __('messages.article-not-available');
+            $latestTranslation->featured_text = '';
+        }
         
-        return view('pages.blog', compact('blogs', 'latestBlog', ));
+
+        $latestBlog->translation = $latestTranslation;
     }
+
+    // Získanie ďalších príspevkov, ktoré sú staršie než najnovší príspevok
+    $blogs = Blog::where('id', '!=', $latestBlog ? $latestBlog->id : null)
+                ->latest()
+                ->paginate(9);
+
+    // Načítanie prekladov pre ostatné príspevky
+    $blogs->transform(function ($blog) {
+        $translation = $blog->getTranslation(app()->getLocale());
+
+        if (!$translation) {
+            $translation = new \stdClass();
+            $translation->title = __('messages.not-in-your-language');
+            $translation->featured_text = '';
+        }
+
+        $blog->translation = $translation;
+        return $blog;
+    });
+
+    return view('pages.blog', compact('blogs', 'latestBlog'));
+}
     public function thankyouPage(){
         return view('pages.form-submit');
     }

@@ -5,6 +5,9 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\LocaleController;
+
+Route::get('locale/{lang}', [LocaleController::class, 'setLocale'])->name('locale');
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/ms-aerosol', [IndexController::class, 'aerosol'])->name('aerosol');

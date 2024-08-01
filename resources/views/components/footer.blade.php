@@ -15,7 +15,7 @@
     <div class="flex flex-col items-center pt-20 gap-2">
         <img class="lg:pt-1 w-14 lg:w-18 md:w-14" src="{{asset('images/logoSM.png')}}" alt="">
         <h1 class="lg:text-xl md:text-md font-bold flex-nowrap">MESTORM SOLUTION</h1>
-        <h1 class="lg:text-md md:text-sm font-light italic flex-nowrap">Zariadenia pre strojárstvo od firmy Metales</h1>
+        <h1 class="lg:text-md md:text-sm font-light italic flex-nowrap">@lang('messages.logo-text')</h1>
     </div>
     <div class="flex lg:flex-row md:flex-row flex-col px-8 container justify-between items-center mx-auto pt-10 lg:pt-0 md:pt-0">
         <div class="flex flex-col gap-4 items-center">

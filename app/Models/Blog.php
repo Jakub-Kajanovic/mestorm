@@ -20,4 +20,11 @@ class Blog extends Model
     public function user(){
         return $this->belongsTo(User::class);
     }
+    public function translations(){
+        return $this->hasMany(BlogTranslation::class);
+    }
+
+    public function getTranslation($lang){
+        return $this->translations->where('language_code', $lang)->first();
+    }
 }

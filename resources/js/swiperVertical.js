@@ -4,6 +4,8 @@ $(document).ready(function() {
         var slides = $(containerSelector).find('.carousel-slide');
         var pagination = $(paginationSelector).find('.pagination-object');
         var totalSlides = slides.length;
+        var intervalTime = 3000; // Čas v ms medzi prechodmi, napr. 3000 ms = 3 sekundy
+        var carouselInterval;
 
         function updateCarousel() {
             slides.fadeOut(400).removeClass('active');
@@ -12,13 +14,26 @@ $(document).ready(function() {
             pagination.eq(currentIndex).addClass('active');
         }
 
+        function startCarouselLoop() {
+            carouselInterval = setInterval(function() {
+                currentIndex = (currentIndex + 1) % totalSlides;
+                updateCarousel();
+            }, intervalTime);
+        }
+
+        function stopCarouselLoop() {
+            clearInterval(carouselInterval);
+        }
+
         pagination.on('click', function() {
             currentIndex = $(this).data('index');
             updateCarousel();
+            stopCarouselLoop(); // Zastavi loop pri ručnom kliknutí
         });
 
         // Initial display
         updateCarousel(); // This will show the first slide initially
+        startCarouselLoop(); // Spustí automatický prechod snímkami
     }
 
     // Initialize carousel for desktop

@@ -8,7 +8,7 @@
                 <span class="font-medium">Success alert!</span> {{ session('success') }}
             </div>
             @endif
-            <div class="overflow-x-auto shadow-md sm:rounded-lg max-w-4xl justify-center">
+            <div class="overflow-x-auto shadow-md sm:rounded-lg max-w-6xl justify-center">
                 <table class="w-full min-w-[600px] text-xs text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
