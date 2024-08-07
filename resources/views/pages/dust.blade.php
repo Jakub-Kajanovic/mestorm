@@ -10,7 +10,7 @@
             </div>
         </nav>
         <div class="background" data-aos="zoom-in">
-            <video src="{{ asset('video/video1.mp4') }}" type="video/mp4" loop autoplay muted></video>
+            <video src="{{ asset('video/dustVideo.mp4') }}" type="video/mp4" loop autoplay muted></video>
             <div class="overlay"></div>
             <div class="hero-content flex-col">
                 <h1 class="font-bold lg:text-3xl md:text-3xl text-3md pt-20">MS - DUST</h1>
